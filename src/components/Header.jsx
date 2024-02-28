@@ -23,7 +23,7 @@ const Header = () => {
             <div className={`header-nav`}>Agents</div>
             <div className={`header-nav`}>Blog In</div>
             {/* <div className="py-[8px] cursor-pointer px-[30px] bg-transparent rounded-[10px] text-[#001DDD] border-[#001DDD] border-[2px] hover:scale-[1.02] transition-all duration-100 text-[12px]">Log In</div> */}
-            <ButtonComp text={"Log In"}/>
+            <ButtonComp text={"Log In"} buttonWidth="w-[185px]"/>
         </div>
       </div>
     </div>

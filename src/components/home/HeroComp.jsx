@@ -25,7 +25,7 @@ const HeroComp = () => {
   
                     </div>
                    
-                    <ButtonComp text={"Get Started"} routeLink="get-started"/>
+                    <ButtonComp text={"Get Started"} routeLink="get-started" buttonWidth="w-[185px]"/>
                 </div>
                 <div>
                     <Image src={img} alt=""/>
