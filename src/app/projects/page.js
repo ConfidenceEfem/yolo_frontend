@@ -66,7 +66,7 @@ const Projects = () => {
                 </div>
               </div>
               <div>
-                <ButtonComp text={"View"} />
+                <ButtonComp text={"View"} routeLink={"/projects/i"} />
               </div>
             </div>
           ))}
