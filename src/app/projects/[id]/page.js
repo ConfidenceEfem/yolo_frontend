@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import img from "../../../image/img.png";
-import AcUnitIcon from "@mui/icons-material/AcUnit";
+// import EditLocationIcon from "@mui/icons-material/EditLocation";
 const ProjectDetail = ({ params }) => {
   return (
     <div
@@ -21,11 +21,13 @@ const ProjectDetail = ({ params }) => {
             </div>
           </div>
           <div className="flex flex-row items-center gap-5">
-            <div className="text-yellow">Icon</div>
+            <div className="text-yellow text-[30px]">
+              {/* <EditLocationIcon /> */}icon
+            </div>
             <div className="text-[25px] font-bold">Ketu Ekpe</div>
           </div>
-          <div className="flex flex-col items-center gap-4 w-[230px] bg-blue py-[14px] rounded-[5px]">
-            <div className="font-bold tracking-wider text-[18px] text-white">
+          <div className="flex flex-col items-center gap-3 w-[230px] bg-blue py-[14px] rounded-[5px]">
+            <div className="font-bold tracking-wider text-[19px] text-white">
               300 . 600
             </div>
             <div className="text-[13px] text-yellow font-medium">

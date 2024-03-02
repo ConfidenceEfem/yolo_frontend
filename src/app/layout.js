@@ -1,8 +1,13 @@
-import { Montserrat } from "next/font/google";
+import { Montserrat, Poppins } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 
-const inter = Montserrat({ subsets: ["latin"] });
+const inter = Montserrat({
+  weight: ["400", "500", "600", "700"],
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--mons-font",
+});
 
 export const metadata = {
   title: "Create Next App",

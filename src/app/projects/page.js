@@ -49,7 +49,10 @@ const Projects = () => {
         </div>
         <div className="grid w-full grid-cols-3 gap-[35px]">
           {projectData?.map((props) => (
-            <div className="w-full overflow-hidden gap-[15px] flex flex-col">
+            <div
+              key={props?.id}
+              className="w-full overflow-hidden gap-[15px] flex flex-col"
+            >
               <Image
                 className="w-full h-[150px] rounded-lg "
                 src={props.image}
