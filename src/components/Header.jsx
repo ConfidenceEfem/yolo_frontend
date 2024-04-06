@@ -5,9 +5,11 @@ import { useRouter } from "next/navigation";
 import MenuIcon from '@mui/icons-material/Menu';
 import Sidebar from "./Sidebar";
 import { useState } from "react";
+import Image from "next/image"
+import img from "../image/logo.png"
 
 const Header = () => {
-
+ 
   const router = useRouter()
 
   const [open, setOpen] = useState(false)
@@ -21,11 +23,13 @@ const Header = () => {
        <div className="w-full bg-whiteColor h-[90px] flex justify-center items-center shadow-outline fixed z-auto">
       <div className="w-[90%] flex justify-between items-center">
         <div
-        className="cursor-pointer"
+        className="cursor-pointer w-[150px]  object-contain"
         onClick={()=>{
           router.push("/")
         }}
-        >logo</div>
+        >
+          <Image src={img}/>
+        </div>
         <div className={`flex gap-[30px] text-[14px] font-[${montserrat.style.fontFamily}] items-center uppercase max-[800px]:hidden`}>
             <div className={`header-nav`}>Home</div>
             <div className={`header-nav`}>Properties</div>

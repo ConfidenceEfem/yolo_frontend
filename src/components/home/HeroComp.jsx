@@ -14,10 +14,10 @@ const HeroComp = () => {
             >
                 <div className="flex flex-col gap-[40px] w-[500px] max-[800px]:items-center max-[800px]:w-full">
                     <div className={`flex gap-[10px] text-[35px] font-semibold tracking-[0.5px] font-[${montserrat.style.fontFamily}] items-center max-[400px]:text-[27px]`}>
-                    <div className="text-[whiteColor]">Become a</div>
+                    <div className="">Become a</div>
                     <div className="flex gap-[10px] flex-col items-center">
-                        <div className="border-[3px] border-[#6B9A52] py-[5px] px-[10px] rounded-[5px] text-blue">YOLO</div>
-                        <div className="text-[8px]">YOUNG LAND OWNERS</div>
+                        <div className="border-[3px] border-yellowColor py-[5px] px-[10px] rounded-[5px] text-blue">YOLO</div>
+                        <div className="text-[8px] text-blue">YOUNG LAND OWNERS</div>
                     </div>
                     </div>
                     <div className="text-[16px] font-normal max-[800px]:text-center max-[800px]:text-[14px]">
